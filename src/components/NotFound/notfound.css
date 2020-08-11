@@ -1,0 +1,14 @@
+.notfound {
+	width: 400px;
+	margin-top: 60px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	color: #330900;
+	font-size: 22px;
+}
+
+.notfound__icon {
+	margin: 30px 0 30px; 
+}

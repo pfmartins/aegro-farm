@@ -1,0 +1,172 @@
+.farm {
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	padding: 30px 0 40px;
+	align-items: center;
+}
+
+.farm__title {
+	color: #330900;
+	font-size: 22px;
+	margin: 40px 0 20px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.farm__empty {
+	width: 360px;
+	font-size: 18px;
+	text-align: center;
+	margin: 40px 0 40px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #330900;
+}
+
+.farm__empty-icon {
+	margin-top: 30px;
+}
+
+.farm__empty-icon > svg {
+	color: #330900;
+}
+
+.farm__content {
+	background-color: #fff;
+	padding: 30px 20px 15px 20px;
+	width: 560px;
+	border-radius: 10px;
+	grid-gap: 10px;
+	display: grid;
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+	font-family: 'Montserrat';
+}
+
+.farm__content--column {
+	grid-template-columns: 1fr;
+}
+
+.farm__card {
+	border-radius: 10px;
+	box-shadow: 0px -3px 15px 5px rgba(0,0,0,0.1);
+	min-height: 110px;
+	min-width: 100px;
+	border: #ddd solid 1px;
+	text-align: center;
+	font-family: 'Montserrat';
+	padding: 15px 0 15px;
+}
+
+.farm__card--linkeable:hover {
+	box-shadow: 0 0 3px 0 #918682 inset, 0 0 3px 2px #918682;
+	border: 1px solid #918682;
+	cursor: pointer;
+}
+
+.farm__card-title {
+	padding: 5px 10px 5px;
+	font-size: 18px;
+	color: #787967;
+	border-bottom: solid 1px #cdc6b3;
+}
+
+.farm__card-description {
+	color: #787967;
+	font-size: 12px;
+	text-align: left;
+	padding: 0 10px 0;
+	line-height: 20px;
+}
+
+.farm__card-description--title {
+	font-weight: bold;
+	margin-bottom: 15px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.farm__card > svg {
+	margin-top: 25px;
+	color: #cdc6b3;
+}
+
+.farm__actions {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.farm__button {
+	color: #FFF;
+	background-color: #4caf50;
+	border-radius: 10px;
+	min-width: 120px;
+	min-height: 46px;
+	border: none;
+	cursor: pointer;
+	user-select: none;
+	font-family: 'Montserrat';
+	font-style: normal;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: .1rem;
+	outline: none;
+	padding: 0 15px 0;
+}
+
+.farm__button:disabled {
+	cursor: not-allowed;
+}
+
+.farm__button:hover {
+	background-color: #329536;
+}
+
+.farm__button > svg {
+	margin-left: 10px;
+}
+
+.farm__form {
+	width: 360px;
+}
+
+.farm__form-content {
+	padding: 10px;
+}
+
+.farm__form-validation {
+	color: red;
+	font-size: 12px;
+	text-align: left;
+	padding: 0 10px 0;
+	margin-top: 5px;
+}
+
+.farm__form-field {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+}
+
+.farm__form-field > label {
+	margin-bottom: 3px;
+	color: #787967;
+	text-align: left;
+}
+
+.farm__form-field > input {
+	height: 30px;
+	border-radius: 5px;
+	border: none;
+	border: #787967 solid 1px;
+}

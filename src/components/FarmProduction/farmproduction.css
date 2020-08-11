@@ -1,0 +1,10 @@
+.farm__production-result-content {
+	display: flex;
+	align-items: center;
+	color: #329536;
+}
+
+.farm__production-result {
+	font-size: 28px;
+	font-weight: bold;
+}

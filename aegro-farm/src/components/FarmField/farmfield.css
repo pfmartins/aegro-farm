@@ -1,0 +1,59 @@
+.farm-field__content {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+
+.farm-field__description {
+	color: #787967;
+	font-size: 14px;
+	margin: 10px 0 10px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+.farm-field__description--two-columns {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.farm-field__small-button {
+	color: #FFF;
+	background-color: #4caf50;
+	border-radius: 10px;
+	min-height: 35px;
+	border: none;
+	cursor: pointer;
+	user-select: none;
+	font-family: 'Montserrat';
+	font-style: normal;
+	text-transform: uppercase;
+	font-size: 12px;
+	outline: none;
+	padding: 0 10px 0;
+}
+
+.farm-field__small-button:hover {
+	background-color: #329536;
+}
+
+.farm-field__small-button svg {
+	margin-top: 0;
+	margin-left: 10px;
+}
+
+.farm-field__separator {
+	width: 100%;
+	border-bottom: solid 1px #787967;
+	margin: 5px 0 10px;
+}
+
+.form-field__add-field-message {
+	color: #787967;
+	background-color: #ea9f4c;
+	padding: 10px;
+	color: #fff;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}

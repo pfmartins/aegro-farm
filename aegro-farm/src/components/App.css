@@ -1,0 +1,86 @@
+.app {
+	width: 100%;
+	min-height: 100vh;
+	background-color: #f7ebb1;
+  }
+  
+  .app-logo {
+	height: 40vmin;
+	pointer-events: none;
+  }
+  
+  .app-footer {
+	background-color: #330900;;
+	height: 20px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 11px;
+  }
+  
+  .app-header {
+	color: white;
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+	background: url("../assets/solo.jpg") no-repeat center;
+	background-size: cover;
+  }
+  .app-menu {
+	position: absolute;
+	left: 0;
+	top: 205px;
+	border-radius: 2px;
+  }
+  
+  .app-menu__button {
+	width: 48px;
+	height: 48px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	background-color: #fff;
+  }
+  
+  .app-menu__button svg {
+	  color: #330900;
+  }
+  
+  .app-menu__button:hover {
+	cursor: pointer; 
+  }
+  
+  .app-menu__content {
+	position: absolute;
+	width: 100px;
+	display: flex;
+	background-color: #fff;
+	top: 0;
+	left: -101px;
+	transition: all, 0.3s;
+	justify-content: center;
+	z-index: 1;
+	flex-direction: column;
+  }
+  
+  .app-menu:hover .app-menu__content {
+	left: 48px;
+  }
+  
+  .app-menu__content > a {
+	text-decoration: none;
+	color: #330900;
+	font-size: 18px;
+  }
+  
+  .app-menu__content > a:hover {
+	text-decoration: underline;
+  }
+  
+  .app-content {
+	width: 100%;
+	justify-content: center;
+	display: flex;
+  }
